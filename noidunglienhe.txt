@@ -1,0 +1,6 @@
+<h2 style="text-align:center;">Cảm Ơn Bạn Đã Quan Tâm Đến Chúng Tôi </h2>
+        <h3>Thư Liên Hệ Từ Khách Hàng:</h3>  
+        <hr>  
+        <p>Tên Khách Hàng: <br><i> {username} </i> </p>
+        <p>Email Khách Hàng: <br><i> {email} </i> </p>
+        <p>Nội Dung Liên Hệ: <br><i> {ContactMessage} </i> </p>

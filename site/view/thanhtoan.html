@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <title>Thanh toán - Eulalie.online</title>
+    <link rel='stylesheet' id='flatsome-main-css' href='https://theperfume.vn/wp-content/themes/flatsome-3.11.3/assets/css/flatsome.css?ver=3.11.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='flatsome-shop-css' href='https://theperfume.vn/wp-content/themes/flatsome-3.11.3/assets/css/flatsome-shop.css?ver=3.11.0' type='text/css' media='all' />
+    <script type='text/javascript' src='https://theperfume.vn/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+    <meta name="generator" content="WordPress 5.8.3" />
+    <meta name="generator" content="WooCommerce 5.5.2" />
+    <meta name="msapplication-TileImage" content="https://theperfume.vn/wp-content/uploads/2016/09/cropped-test-img-270x270.png" />
+    <style id="custom-css" type="text/css">
+             :root {
+            --primary-color: #000000;
+        }
+        
+        .header-main {
+            height: 100px
+        }
+        
+        #logo img {
+            max-height: 100px
+        }
+        
+        #logo {
+            width: 200px;
+        }
+        
+        .header-bottom {
+            min-height: 47px
+        }
+        
+        .header-top {
+            min-height: 30px
+        }
+        
+        .has-transparent+.page-title:first-of-type,
+        .has-transparent+#main>.page-title,
+        .has-transparent+#main>div>.page-title,
+        .has-transparent+#main .page-header-wrapper:first-of-type .page-title {
+            padding-top: 150px;
+        }
+        
+        .header.show-on-scroll,
+        .stuck .header-main {
+            height: 70px !important
+        }
+        
+        .stuck #logo img {
+            max-height: 70px !important
+        }
+        
+        .search-form {
+            width: 70%;
+        }
+        
+        .header-bg-color,
+        .header-wrapper {
+            background-color: rgba(0, 0, 0, 0.9)
+        }
+        
+        .header-bottom {
+            background-color: #000000
+        }
+        
+        .stuck .header-main .nav>li>a {
+            line-height: 50px
+        }
+        
+        .header-bottom-nav>li>a {
+            line-height: 14px
+        }
+        
+        @media (max-width: 549px) {
+            .header-main {
+                height: 70px
+            }
+            #logo img {
+                max-height: 70px
+            }
+        }
+        
+        .nav-dropdown {
+            font-size: 100%
+        }
+        /* Color */
+        
+        .accordion-title.active,
+        .has-icon-bg .icon .icon-inner,
+        .logo a,
+        .primary.is-underline,
+        .primary.is-link,
+        .badge-outline .badge-inner,
+        .nav-outline>li.active>a,
+        .nav-outline>li.active>a,
+        .cart-icon strong,
+        [data-color='primary'],
+        .is-outline.primary {
+            color: #000000;
+        }
+        /* Color !important */
+        
+        [data-text-color="primary"] {
+            color: #000000 !important;
+        }
+        /* Background Color */
+        
+        [data-text-bg="primary"] {
+            background-color: #000000;
+        }
+        /* Background */
+        
+        .scroll-to-bullets a,
+        .featured-title,
+        .label-new.menu-item>a:after,
+        .nav-pagination>li>.current,
+        .nav-pagination>li>span:hover,
+        .nav-pagination>li>a:hover,
+        .has-hover:hover .badge-outline .badge-inner,
+        button[type="submit"],
+        .button.wc-forward:not(.checkout):not(.checkout-button),
+        .button.submit-button,
+        .button.primary:not(.is-outline),
+        .featured-table .title,
+        .is-outline:hover,
+        .has-icon:hover .icon-label,
+        .nav-dropdown-bold .nav-column li>a:hover,
+        .nav-dropdown.nav-dropdown-bold>li>a:hover,
+        .nav-dropdown-bold.dark .nav-column li>a:hover,
+        .nav-dropdown.nav-dropdown-bold.dark>li>a:hover,
+        .is-outline:hover,
+        .tagcloud a:hover,
+        .grid-tools a,
+        input[type='submit']:not(.is-form),
+        .box-badge:hover .box-text,
+        input.button.alt,
+        .nav-box>li>a:hover,
+        .nav-box>li.active>a,
+        .nav-pills>li.active>a,
+        .current-dropdown .cart-icon strong,
+        .cart-icon:hover strong,
+        .nav-line-bottom>li>a:before,
+        .nav-line-grow>li>a:before,
+        .nav-line>li>a:before,
+        .banner,
+        .header-top,
+        .slider-nav-circle .flickity-prev-next-button:hover svg,
+        .slider-nav-circle .flickity-prev-next-button:hover .arrow,
+        .primary.is-outline:hover,
+        .button.primary:not(.is-outline),
+        input[type='submit'].primary,
+        input[type='submit'].primary,
+        input[type='reset'].button,
+        input[type='button'].primary,
+        .badge-inner {
+            background-color: #000000;
+        }
+        /* Border */
+        
+        .nav-vertical.nav-tabs>li.active>a,
+        .scroll-to-bullets a.active,
+        .nav-pagination>li>.current,
+        .nav-pagination>li>span:hover,
+        .nav-pagination>li>a:hover,
+        .has-hover:hover .badge-outline .badge-inner,
+        .accordion-title.active,
+        .featured-table,
+        .is-outline:hover,
+        .tagcloud a:hover,
+        blockquote,
+        .has-border,
+        .cart-icon strong:after,
+        .cart-icon strong,
+        .blockUI:before,
+        .processing:before,
+        .loading-spin,
+        .slider-nav-circle .flickity-prev-next-button:hover svg,
+        .slider-nav-circle .flickity-prev-next-button:hover .arrow,
+        .primary.is-outline:hover {
+            border-color: #000000
+        }
+        
+        .nav-tabs>li.active>a {
+            border-top-color: #000000
+        }
+        
+        .widget_shopping_cart_content .blockUI.blockOverlay:before {
+            border-left-color: #000000
+        }
+        
+        .woocommerce-checkout-review-order .blockUI.blockOverlay:before {
+            border-left-color: #000000
+        }
+        /* Fill */
+        
+        .slider .flickity-prev-next-button:hover svg,
+        .slider .flickity-prev-next-button:hover .arrow {
+            fill: #000000;
+        }
+        /* Background Color */
+        
+        [data-icon-label]:after,
+        .secondary.is-underline:hover,
+        .secondary.is-outline:hover,
+        .icon-label,
+        .button.secondary:not(.is-outline),
+        .button.alt:not(.is-outline),
+        .badge-inner.on-sale,
+        .button.checkout,
+        .single_add_to_cart_button,
+        .current .breadcrumb-step {
+            background-color: #83000b;
+        }
+        
+        [data-text-bg="secondary"] {
+            background-color: #83000b;
+        }
+        /* Color */
+        
+        .secondary.is-underline,
+        .secondary.is-link,
+        .secondary.is-outline,
+        .stars a.active,
+        .star-rating:before,
+        .woocommerce-page .star-rating:before,
+        .star-rating span:before,
+        .color-secondary {
+            color: #83000b
+        }
+        /* Color !important */
+        
+        [data-text-color="secondary"] {
+            color: #83000b !important;
+        }
+        /* Border */
+        
+        .secondary.is-outline:hover {
+            border-color: #83000b
+        }
+        
+        body {
+            font-size: 100%;
+        }
+        
+        @media screen and (max-width: 549px) {
+            body {
+                font-size: 100%;
+            }
+        }
+        
+        body {
+            font-family: "Roboto", sans-serif
+        }
+        
+        body {
+            font-weight: 0
+        }
+        
+        body {
+            color: #000000
+        }
+        
+        .nav>li>a {
+            font-family: "Roboto", sans-serif;
+        }
+        
+        .nav>li>a {
+            font-weight: 700;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .heading-font,
+        .off-canvas-center .nav-sidebar.nav-vertical>li>a {
+            font-family: "Roboto", sans-serif;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .heading-font,
+        .banner h1,
+        .banner h2 {
+            font-weight: 700;
+        }
+        
+        .alt-font {
+            font-family: "Roboto", sans-serif;
+        }
+        
+        .alt-font {
+            font-weight: 0 !important;
+        }
+        
+        .badge-inner.on-sale {
+            background-color: #ffffff
+        }
+        
+        .badge-inner.new-bubble {
+            background-color: #83000b
+        }
+        
+        ins .woocommerce-Price-amount {
+            color: #dd3333;
+        }
+        
+        @media screen and (min-width: 550px) {
+            .products .box-vertical .box-image {
+                min-width: 200px !important;
+                width: 200px !important;
+            }
+        }
+        
+        .footer-1 {
+            background-color: #0a0a0a
+        }
+        
+        .footer-2 {
+            background-color: #0a0a0a
+        }
+        
+        .absolute-footer,
+        html {
+            background-color: #000000
+        }
+        
+        button[name='update_cart'] {
+            display: none;
+        }
+        /* Custom CSS */
+        
+        #tab-description a {
+            color: #1e90ff;
+        }
+        
+        #top-bar {
+            background-color: black;
+        }
+        
+        .widget_nav_menu ul li {
+            font-size: 90%;
+            text-transform: none;
+            font-weight: normal;
+        }
+        
+        .widget_nav_menu ul li a {
+            color: #fff ! important;
+        }
+        
+        .tx-div {
+            display: block;
+            height: 1px;
+            background-color: #000000;
+            opacity: 0.7;
+            margin: 15px 0 15px;
+        }
+        
+        .dark-header #masthead .social-icons .icon {
+            color: black;
+        }
+        
+        .dark-header #masthead .social-icons a.icon {
+            border-color: black;
+        }
+        
+        #masthead {
+            background-color: black;
+        }
+        
+        .wide-nav {
+            background-color: black;
+        }
+        
+        .dark-header.wide-nav ul.header-nav a.nav-top-link {
+            color: #fff;
+        }
+        
+        ul.header-nav a.nav-top-link {
+            color: #fff;
+            opacity: 1;
+        }
+        
+        ul.header-nav li.active a.nav-top-link {
+            color: white;
+            opacity: 0.66;
+        }
+        
+        .wide-nav {
+            box-shadow: none;
+            border-top: 1px solid #e5e5e5;
+            border-bottom: 1px solid #e5e5e5;
+            margin-bottom: 5px;
+        }
+        
+        a {
+            color: black;
+            text-decoration: none;
+            line-height: inherit;
+        }
+        
+        .tabbed-content.pos_pills ul.tabs li.active a {
+            background-color: black;
+        }
+        
+        .product-image .quick-view {
+            background-color: black;
+        }
+        
+        .widget_product_categories li a {
+            font-size: 90%;
+            padding: 8px 0;
+            color: #777777;
+            display: inline-block;
+            text-transform: none;
+        }
+        
+        .breadcrumb {
+            text-transform: uppercase;
+            font-size: 100%;
+        }
+        
+        .widget_product_categories li a {
+            font-size: 100%;
+        }
+        
+        img.category_banner_image {
+            margin-bottom: 30px;
+        }
+        
+        hr {
+            border: solid #FFF;
+        }
+        
+        .large-3.hide-for-small.left.columns {
+            background-color: #ffffff;
+            box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.2);
+            margin-bottom: 5%;
+            padding-top: 20px;
+        }
+        
+        .product-small .name {
+            font-size: 86%;
+            font-style: italic;
+        }
+        
+        .wide-nav .header-nav a.nav-top-link {
+            padding-right: 11px;
+        }
+        
+        .callout.style3 .inner {
+            border-color: #83000B;
+        }
+        
+        .callout.style3 .inner .inner-text {
+            color: #83000B;
+        }
+        
+        .callout.style3 {
+            left: 10px;
+            top: 10px;
+        }
+        
+        .callout.style3.large {
+            top: 5px;
+            left: 0px;
+        }
+        
+        .price .amount {
+            font-size: 86%;
+        }
+        
+        .wide-nav .header-nav a.nav-top-link {
+            padding-right: 8px;
+        }
+        
+        .absolute-footer.dark {
+            margin-bottom: -1%;
+        }
+        
+        .shortcode_tabgroup {
+            margin-bottom: 0px;
+        }
+        
+        hr {
+            display: none;
+            border: solid #FFF;
+        }
+        
+        ul#shipping_method li {
+            list-style: none;
+            line-height: 120%;
+            padding: 5px 0;
+            color: black;
+        }
+        
+        ul.payment_methods p {
+            font-size: 90%;
+            line-height: 110%;
+            opacity: 1;
+            color: black;
+        }
+        
+        ul.header-nav li .nav-dropdown a {
+            color: black;
+        }
+        
+        .absolute-footer {
+            padding: 15px 0 0 0 !important;
+        }
+        
+        .copyright-footer {
+            margin-top: 6%;
+        }
+        
+        .term-description {
+            box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.4);
+            padding: 4px 0 1px 0;
+            margin-right: 11px;
+            margin-bottom: 20px;
+        }
+        
+        .alignleft {
+            min-height: 89px;
+        }
+        
+        .term-description h2 {
+            font-size: 16px;
+            font-family: Tinos, helvetica, arial, sans-serif !important;
+            font-weight: normal;
+        }
+        
+        .term-description {
+            width: 100% !important;
+            padding: 5px;
+            text-align: justify;
+        }
+        
+        h3.section-title.title_center span:before {
+            content: ' ';
+            display: block;
+            height: 0;
+            border-bottom: 1.98px solid #EEE;
+            width: 1000px;
+            position: absolute;
+            top: 50%;
+        }
+        
+        h3.section-title.title_center span:after {
+            content: ' ';
+            display: block;
+            height: 0;
+            border-bottom: 1.98px solid #EEE;
+            width: 1000px;
+            position: absolute;
+            top: 50%;
+        }
+        
+        h3.section-title.title_center span {
+            font-size: 15px;
+            word-spacing: 1.5px;
+        }
+        
+        .ux_banner-grid .columns>.column-inner {
+            padding-left: 0px !important;
+            padding-right: 2.5px;
+        }
+        
+        .ux_banner-grid .columns {
+            margin-bottom: 2.5px;
+            margin-left: -0.1px;
+        }
+        
+        .wide-nav.nav-center .nav-wrapper>#site-navigation li .fa.fa-male {
+            text-align: center !important;
+            margin-left: 10%;
+            margin-right: -10%;
+        }
+        
+        .wide-nav.nav-center .nav-wrapper>#site-navigation li .fa.fa-female {
+            text-align: center !important;
+            margin-left: 10%;
+            margin-right: -10%;
+        }
+        
+        i.fa.fa-angle-double-right {
+            margin-right: 5%;
+        }
+        
+        .term-description.brand-description {
+            text-align: center;
+            font-size: 14px;
+            padding: 0 12px 2px 14px;
+        }
+        
+        .term-description.brand-description .text {
+            text-align: left;
+        }
+        
+        i.fa.fa-first-order {
+            margin-right: 2.5px;
+        }
+        
+        i.fa.fa-diamond {
+            margin-right: 2.5px;
+        }
+        
+        .wide-nav .header-nav a.nav-top-link {
+            padding-right: 15px;
+            font: 400 14x 'times new roman';
+            font-weight: 500 !important;
+            height: 43px;
+            white-space: nowrap; //line-height: 41px;}.pw-stick-light {background: black;color: white;border: 1px solid #e1e1e1;border-radius: 10px;}.pw-title {line-height: 50px;font-size: 12px;}.pw-stick {width: 50px;height: 50px;}.small-12.text-center.large-12.columns {padding: 0 1% 0 0.7%!important;}.tabbed-content.shortcode_tabgroup.pos_pills {/*border: 1px solid #dcdcdc;*/border-top: 3px solid #000;width: 100%;float: left;overflow: hidden;}.row.container.moi-nhat-home ul.tabs {height: 36px;text-align: center;border-bottom: 1px solid #dcdcdc;display: block;box-shadow: 0 2px 3px rgb(235, 235, 235);}.row.container.moi-nhat-home {margin-top: 20px;}.row.container.moi-nhat-home li.tab.active {margin-left: -5px;background: black!important;}.tabbed-content.pos_pills ul.tabs li a {border: 0;padding: 10px 10px;border-radius: 1px;font-size: 72%;margin: 0 7px 0 7px;}.tabbed-content.pos_pills ul.tabs li {margin-left: -5px;border-right: 1px solid rgba(0,0,0,0.1);}.tabbed-content ul.tabs li a {color: #505050;font-size: 80%;}.tabbed-content ul.tabs li a:hover {color: white;}.tabbed-content ul.tabs li:hover {background: black;}ul.tabs.wc-tabs li:hover {background: white;}ul.tabs.wc-tabs li a:hover {color: black;}.widget-title {text-transform: uppercase;font-size: 75%;}.wb-filter-style1 .wb-alphabet-table .wb-alphabet-item{ font-size:14px;}.wb-filter-item-cnt .wb-filter-item{ font-size:14px;}.wb-posted_in {font-size:12px;font-weight:500;text-align:center;font-family: Arial!important;}img.emoji {display: inline !important;border: none !important;box-shadow: none !important;height: 0.8em !important;width: 0.6em !important;margin: 2px 0.07em !important;vertical-align: -0.1em !important;background: none !important;padding: 0 !important;}.related-product h2{font-size:80%;}.product-info h4 a {color: #505050;font-size: 70%;text-transform: uppercase;}h1.entry-title {font-size: 22px;}.tm-extra-product-options-totals .amount.final {font-size: 17px;font-weight: bold;}.product-small .name {font-size: 100%;font-style: italic;}.ux-header-element a {color: white;opacity: .86;display: inline-block;margin-left: 7.5px;border: 2px solid #ccc;padding: 6px 8px !important;line-height: 11px;font-size: 12px !important;}.social-icons .icon {position: relative;padding: 0;width: 25px;height: 25px;line-height: 25px;text-align: center;font-size: 12px;border: 2px solid #cccccc;display: inline-block;margin: 0 5px 5px 0;color: #cccccc;border-radius: 99px;}.prdctfltr_buttons .button{margin: 0 0 0 7.25em;font-size: 11px;}input[type="checkbox"] {margin: 0 0 0.3em 0;}.prdctfltr_filter label {font-size: 86%;color:black;}.prdctfltr_count{ border: 1px solid #ccc; color: black; opacity: 1.5;}.widget h3.widget-title.shop-sidebar {border-bottom: 1px solid #ccc;color:black;font-size:88%;}.prdctfltr-widget .prdctfltr_wc .prdctfltr_woocommerce_ordering .prdctfltr_filter {margin-bottom:1px;} .prdctfltr-widget .prdctfltr_scroll_default.pf_default_select .prdctfltr_add_scroll .prdctfltr_checkboxes{padding-top:0px;margin-bottom: 8px;}h3.category-title-breadcrumb.breadcrumb{ color: black;}.breadcrumb a {color: black!important;font-weight: bold;}.breadcrumb-small h3.breadcrumb {font-size: 75%;}select{font-size: 100%;color: black;border: 1px solid #ccc;}p.woocommerce-result-count{ font-size:13px;}.breadcrumb-row {margin-bottom: 10px;}.breadcrumb span{color:black;}.product_list_widget li{ padding-bottom:50px;}.widget{margin-top:5px;}.prdctfltr_filter.prdctfltr_range.prdctfltr_price.pf_rngstyle_modern {margin-bottom: -10%;}.pf_rngstyle_modern .irs-from, .pf_rngstyle_modern .irs-to, .pf_rngstyle_modern .irs-single{background: #83000b;}.pf_rngstyle_modern .irs-from:after, .pf_rngstyle_modern .irs-to:after, .pf_rngstyle_modern .irs-single:after{border-top-color: #83000b;}table tr th, table tr td {padding: .5625em 0em;font-size: 13px;color: black;}.shop_attributes p {font-size:14px;color: #555;margin: 0;}.tabbed-content ul.tabs li.active a{border-color: black;color: black;}ul.product_list_widget {font-size: 13px!important;}label {font-size: 13px;}table tbody tr td, table tr td{ padding-left:11px;}.shop_attributes th {border-right: 1px solid #ccc;width: 100px;padding-right: 15px;padding-left: 10px;}.shop_attributes{border: 1px solid #ccc;}.shop_attributes tr{ border-bottom:1px solid #ccc;}.product-details {border-top: 1px solid #ccc;}.large-3.hide-for-small.left.columns {background-color: #ffffff;margin-bottom: 5%;padding-top: 20px;border: 1px solid #e3e3e3; box-shadow:none;}.product-small.grid-boxed .inner-wrap {background-color: #ffffff;border: 1px solid #e3e3e3!important; box-shadow:none;}span.prdctfltr_widget_title{ margin-bottom: 2px;}strong.cart-name{ color: white; opacity: .86;}li.mini-cart .cart-icon .cart-icon-handle{ border-color: white;}.cart-icon .cart-icon-handle {border: 2px solid #fff;}li.mini-cart .cart-icon strong{ border-color:#fff; color:#fff;} span.cart-price {color: white;opacity: 1;}.active span.cart-price {color: white;opacity: 1;}.product-small p.name{ font-size:115%; color:black;}.text-center p.name {font-size: 14px!important;}p{ font-family: Tinos,helvetica,arial,sans-serif!important;}.tabbed-content .panel.active {font-size: 14px;}.product_meta.wb-posted_in {text-align:left!important;}.active strong.cart-name {color: white;opacity: 1;}.eb-scrollbarcnt .scrollbar, .eb-scrollbarcnt-short .scrollbar{ z-index:1;}#logo a{color:white;}.dark h1, .dark h2, .dark h3, .dark h4, .dark h5 {color: #ffffff;}.dark .tx-div {background-color: #ffffff;opacity: .3;}.widget_nav_menu ul li a {border-color: rgba(255,255,255,0.2);color: #fff! important;font-size:13.5px;font-family:Tinos;}.widget_nav_menu ul li.current-menu-item a{ border-color: rgba(255,255,255,0.2);color: #fff! important;}.widget_nav_menu ul li.current-menu-item a {border-right: 0;}.tx-div{background-color: white;}.footer-payment-methods__list.footer-payment-methods__icon {float: left;margin: 0 25px 10px 0;}.icon-payment_ipayVisa {background-image: url(https://theperfume.vn/wp-content/uploads/2016/09/icons-fd035e245c.png);background-position: -101px -412px;width: 53px;height: 39px;}.icon-payment_ipayMaster {background-image: url(https://theperfume.vn/wp-content/uploads/2016/09/icons-fd035e245c.png);background-position: -378px -371px;width: 53px;height: 39px;}.icon-payment_ipayCOD {background-image: url(https://theperfume.vn/wp-content/uploads/2016/09/icons-fd035e245c.png);background-position: -270px -371px;width: 53px;height: 39px;}.icon-payment_smartlink {background-image: url(https://theperfume.vn/wp-content/uploads/2016/09/icons-fd035e245c.png);background-position: -489px -160px;width: 53px;height: 39px;}.icon-payment_VN123Pay { background-image: url(https://theperfume.vn/wp-content/uploads/2016/09/icons-fd035e245c.png);background-position: -95px -268px;width: 268px;height: 39px;margin-top: 7px;}.icon{ vertical-align: text-top;display: inline-flex;}span.transport {width: 240px;height: 55px;margin-right: 0;cursor: default;display: inline-block;background: url('https://theperfume.vn/wp-content/uploads/2016/09/ic-sprites.png') 0 -240px no-repeat;}.footer.footer-1.light h3.widget-title {color: white!important;}.footer-2{margin-top:-50px;margin-bottom:-20px;}.footer-1 .widget {margin-bottom: 0px;}div#text-3 {text-align: center;border: 1px solid #e5e5e5;border-radius: 15px;position: relative;z-index: 10;padding-bottom: 1.5%;}div#text-3 .tx-div.small {width: 100%;}.tu-van-footer p{ font-size:14px;}.footer.footer-2.dark h3.widget-title {margin-top: 10px;margin-bottom: -5px;}.img-1 {max-width: 96%;}.bct{ text-align:center;}.inner.center.text-center h1 {font-weight: bolder;font-size: 150%!important;line-height: 200%;margin: 15px 0;}h1.h-large {font-size: 200%;line-height: 85%;padding: 0 !important;}.inner.left.center.text-left h1 {font-weight: bolder;font-size: 150%!important;line-height: 200%;margin: 15px 0;}.inner.right.center.text-center h2 {font-size: 168%;line-height: 100%;margin: 15px 0;}.inner.left.center.text-center h3 {font-size: 168%;line-height: 100%;margin: 15px 0;}.inner.center.text-center h2 {font-weight: bolder;font-size: 150%!important;line-height: 200%;margin: 15px 0;}h3.alt-font {font-size: 23px;}.column-3-home-1 h1.animated.fadeInLeft.uppercase.start-anim{color: black;border: 2px solid white;background: white; opacity:.8!important;}.row.container.brand-slide {margin-top: -30px;border:1px solid #cccccc;}.flickity-viewport {margin-bottom: -1%;}.ux_logo a {display: block;opacity: .8;}ins {text-decoration: none!important;}.product-small p.category a {color: #83000b;font-size: 11px;}wide-nav.stuck {opacity: 1;}.custom-cart-count{ background-color: #686868;}.img-logo {margin-bottom: 8.2%;}.price {/*display: none;*/}.tc-extra-product-options .tmcp-field-wrap .price.tc-price {margin-top: 11px;margin-left: 10px;}dt.tm-options-totals{ display:none;}dl.tm-extra-product-options-totals.tm-custom-price-totals {display: none;}.variations label{font-size: 110%;font-weight: bolder;margin: 0;}p {font-weight: normal;font-size: 16px!important;line-height: 26px;margin-bottom: 16px;text-rendering: optimizeLegibility;}.tabbed-content ul.tabs li a {color: #505050;font-size: 86%;}div#tab-ux_global_tab {font-weight: normal;font-size: 16px!important;line-height: 23px;margin-bottom: 16px;text-rendering: optimizeLegibility;}.widget li a {font-size: 15px;line-height: 22px;}.product_list_widget span.amount {display: inline-block;font-weight: bold;color: #000000;margin-top: 3px;font-size: 14px;}.product_list_widget li {border-bottom: 1px solid #EEE;padding: 10px 0 10px 75px;position: relative;overflow: hidden;width: 100%;}.price .amount {font-size: 120%;}.sticky-contact-container {/*background-color: #333;*/padding: 0px;margin: 0px;position: fixed;right: -119px;top: 230px;width: 200px;z-index: 999999;}.sticky-contact li {list-style-type: none;background-color: #f1f1f1;color: #efefef;height: 42px;padding: 0px;margin: 0px 0px 1px 0px;-webkit-transition: all 0.25s ease-in-out;-moz-transition: all 0.25s ease-in-out;-o-transition: all 0.25s ease-in-out;transition: all 0.25s ease-in-out;cursor: pointer;margin-left: 0px;}.sticky-contact li a {color: #efefef;text-decoration: underline;font-size: 10px;}.sticky-contact li:hover {margin-left: -115px;/*-webkit-transform: translateX(-115px);-moz-transform: translateX(-115px);-o-transform: translateX(-115px);-ms-transform: translateX(-115px);transform:translateX(-115px);*/color: #333;}.sticky-contact li:hover a {color: #333;}.sticky-contact li img {float: left;margin: 5px 5px;margin-right: 10px;width: 32px;height: 32px;}.sticky-contact li p {padding: 0px;margin: 0px;text-transform: uppercase;line-height: 42px;font-size: 10px;font-weight: 700;}.sticky-contact-container .hidden-lg { display:none;}#billing_company_field, #billing_country_field, #billing_postcode_field {display:none;}button#yith-searchsubmit {font-size: 14px!important;border-top-right-radius: 5px;border-bottom-right-radius: 5px;}.search-wrapper {margin-left:20px!important;}.yith-search-premium input.yith-s {border-top-left-radius: 5px; border-bottom-left-radius: 5px;}input[name="update_cart"].expand {display:none;}.social-icons.size-normal {display:none;}.woocommerce-mini-cart__buttons a {color: #fff}/* Custom CSS Mobile */@media (max-width: 549px){.large-block-grid-4 > li{width: 49%;}.row.container.moi-nhat-home {margin-right: auto!important;max-width: 100%;padding: 0 10px 0 10px;}#masthead .mobile-menu a{color: #83000b;}.inner.left.center.text-left h1 {font-weight: bolder;font-size: 150%!important;line-height: 160%;margin: 15px 0;}.inner.center.text-center h1 {font-weight: bolder;font-size: 150%!important;line-height: 95%;margin: 15px 0;}:hov.clselement.style {}.prdctfltr-widget .prdctfltr_wc .prdctfltr_woocommerce_filter_submit {margin-bottom: 20px;}.prdctfltr_buttons .button {margin: 0 0 0 5.25em;font-size: 11px;}.custom-cart-icon {bottom: -18px;}.callus {background: #e72f8b;display: block!important;position: fixed;bottom: 14%;height: 40px;line-height: 43px;padding: 0 0px 0 0px;padding: 0px 8px 0 13px;border-radius: 999px;color: #fff;left: 2.5%;z-index: 99999;}.callus .icon-phone { }sticky-contact-container {padding: 0px;margin: 0px;position: fixed;right: -152px;top: 70%;width: 200px;z-index: 99999;}.sticky-contact li{background-color: transparent;}.sticky-contact li:hover {margin-left: -156px;background: #f1f1f1;}.sticky-contact-container .hidden-lg { display:block;}.small-nav-collapse>li {width: auto;padding: 0 5px;}}.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}
+    </style>
+</head>
+
+<body class="page-template-default page page-id-8 theme-flatsome-3.11.3 woocommerce-checkout woocommerce-page woocommerce-no-js woo-variation-swatches wvs-theme-flatsome-3.11.3 wvs-theme-child-flatsome-3.11.3 wvs-style-squared wvs-attr-behavior-blur wvs-tooltip wvs-css wvs-show-label lightbox nav-dropdown-has-arrow">
+    <!--  -->
+
+    <div id="wrapper">
+
+
+        <main id="main" class="">
+            <div id="content" class="content-area page-wrapper" role="main">
+                <div class="row row-main">
+                    <div class="large-12 col">
+                        <div class="col-inner">
+                            <div class="woocommerce">
+
+                                <div class="woocommerce-notices-wrapper"></div>
+                                <form name="checkout" method="post" class="checkout woocommerce-checkout " action="https://theperfume.vn/thanh-toan/" enctype="multipart/form-data">
+
+                                    <div class="row pt-0 ">
+                                        <div class="large-7 col  ">
+                                            <div id="customer_details">
+                                                <div class="clear">
+                                                    <div class="woocommerce-billing-fields">
+
+                                                        <h3>Thông tin thanh toán</h3>
+                                                        <div class="woocommerce-billing-fields__field-wrapper">
+                                                            <p class="form-row form-row-first validate-required" id="billing_first_name_field" data-priority="10"><label for="billing_first_name" class="">Tên&nbsp;<abbr
+                                                                        class="required"
+                                                                        title="bắt buộc">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text"
+                                                                        class="input-text " name="billing_first_name"
+                                                                        id="billing_first_name" placeholder="" value=""
+                                                                        autocomplete="given-name" /></span></p>
+                                                            <p class="form-row form-row-last validate-required" id="billing_last_name_field" data-priority="20"><label for="billing_last_name" class="">Họ&nbsp;<abbr
+                                                                        class="required"
+                                                                        title="bắt buộc">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text"
+                                                                        class="input-text " name="billing_last_name"
+                                                                        id="billing_last_name" placeholder="" value=""
+                                                                        autocomplete="family-name" /></span></p>
+                                                            <p class="form-row form-row-wide address-field update_totals_on_change validate-required" id="billing_country_field" data-priority="40"><label for="billing_country" class="">Quốc gia/Khu
+                                                                    vực&nbsp;<abbr class="required"
+                                                                        title="bắt buộc">*</abbr></label><span class="woocommerce-input-wrapper"><strong>Việt
+                                                                        Nam</strong><input type="hidden"
+                                                                        name="billing_country" id="billing_country"
+                                                                        value="VN" autocomplete="country"
+                                                                        class="country_to_state"
+                                                                        readonly="readonly" /></span></p>
+                                                            <p class="form-row form-row-wide address-field validate-required" id="billing_address_1_field" data-priority="50"><label for="billing_address_1" class="">Địa chỉ&nbsp;<abbr
+                                                                        class="required"
+                                                                        title="bắt buộc">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text"
+                                                                        class="input-text " name="billing_address_1"
+                                                                        id="billing_address_1" placeholder="Địa chỉ"
+                                                                        value="" autocomplete="address-line1" /></span>
+                                                            </p>
+                                                            <p class="form-row form-row-wide address-field validate-postcode" id="billing_postcode_field" data-priority="65"><label for="billing_postcode" class="">Mã bưu
+                                                                    điện&nbsp;<span class="optional">(tuỳ
+                                                                        chọn)</span></label><span class="woocommerce-input-wrapper"><input type="text"
+                                                                        class="input-text " name="billing_postcode"
+                                                                        id="billing_postcode" placeholder="" value=""
+                                                                        autocomplete="postal-code" /></span></p>
+                                                            <p class="form-row form-row-wide address-field validate-required" id="billing_city_field" data-priority="70"><label for="billing_city" class="">Tỉnh / Thành
+                                                                    phố&nbsp;<abbr class="required"
+                                                                        title="bắt buộc">*</abbr></label><span class="woocommerce-input-wrapper"><input type="text"
+                                                                        class="input-text " name="billing_city"
+                                                                        id="billing_city" placeholder="" value=""
+                                                                        autocomplete="address-level2" /></span></p>
+                                                            <p class="form-row form-row-wide address-field validate-state" id="billing_state_field" style="display: none"><label for="billing_state" class="">Bang / Hạt&nbsp;<span
+                                                                        class="optional">(tuỳ chọn)</span></label><span class="woocommerce-input-wrapper"><input
+                                                                        type="hidden" class="hidden"
+                                                                        name="billing_state" id="billing_state" value=""
+                                                                        autocomplete="address-level1" placeholder=""
+                                                                        readonly="readonly"
+                                                                        data-input-classes="" /></span></p>
+                                                            <p class="form-row form-row-wide validate-required validate-phone" id="billing_phone_field" data-priority="100"><label for="billing_phone" class="">Số điện
+                                                                    thoại&nbsp;<abbr class="required"
+                                                                        title="bắt buộc">*</abbr></label><span class="woocommerce-input-wrapper"><input type="tel"
+                                                                        class="input-text " name="billing_phone"
+                                                                        id="billing_phone" placeholder="" value=""
+                                                                        autocomplete="tel" /></span></p>
+                                                            <p class="form-row form-row-wide validate-required validate-email" id="billing_email_field" data-priority="110"><label for="billing_email" class="">Địa chỉ
+                                                                    email&nbsp;<abbr class="required"
+                                                                        title="bắt buộc">*</abbr></label><span class="woocommerce-input-wrapper"><input
+                                                                        type="email" class="input-text "
+                                                                        name="billing_email" id="billing_email"
+                                                                        placeholder="" value=""
+                                                                        autocomplete="email username" /></span></p>
+                                                        </div>
+
+                                                    </div>
+
+
+                                                </div>
+
+
+                                            </div>
+
+
+
+                                        </div>
+
+                                        <div class="large-5 col">
+
+                                            <div class="col-inner has-border">
+                                                <div class="checkout-sidebar sm-touch-scroll">
+                                                    <h3 id="order_review_heading">Đơn hàng của bạn</h3>
+
+
+                                                    <div id="order_review" class="woocommerce-checkout-review-order">
+                                                        <table class="shop_table woocommerce-checkout-review-order-table">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="product-name">Sản phẩm</th>
+                                                                    <th class="product-total">Tạm tính</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr class="cart_item">
+                                                                    <td class="product-name">
+                                                                        Nước Hoa Dior Homme Sport&nbsp; <strong class="product-quantity">&times;&nbsp;1</strong>
+                                                                    </td>
+                                                                    <td class="product-total">
+                                                                        <span class="woocommerce-Price-amount amount"><bdi>0&nbsp;<span
+                                                                                    class="woocommerce-Price-currencySymbol">&#8363;</span></bdi>
+                                                                        </span>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                            <tfoot>
+
+                                                                <tr class="cart-subtotal">
+                                                                    <th>Tạm tính</th>
+                                                                    <td><span class="woocommerce-Price-amount amount"><bdi>0&nbsp;<span
+                                                                                    class="woocommerce-Price-currencySymbol">&#8363;</span></bdi>
+                                                                        </span>
+                                                                    </td>
+                                                                </tr>
+
+
+
+
+                                                                <tr class="woocommerce-shipping-totals shipping ">
+                                                                    <td class="shipping__inner" colspan="2">
+                                                                        <table class="shipping__table shipping__table--multiple">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <th colspan="2">Giao hàng</th>
+                                                                                    <td data-title="Giao hàng">
+                                                                                        <ul id="shipping_method" class="shipping__list woocommerce-shipping-methods">
+                                                                                            <li class="shipping__list_item">
+                                                                                                <input type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_flat_rate1" value="flat_rate:1" class="shipping_method" /><label class="shipping__list_label"
+                                                                                                    for="shipping_method_0_flat_rate1">Ship
+                                                                                                    nội thành Hà Nội,
+                                                                                                    HCM: <span
+                                                                                                        class="woocommerce-Price-amount amount"><bdi>20.000&nbsp;<span
+                                                                                                                class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></label>
+                                                                                            </li>
+                                                                                            <li class="shipping__list_item">
+                                                                                                <input type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_flat_rate3" value="flat_rate:3" class="shipping_method" /><label class="shipping__list_label"
+                                                                                                    for="shipping_method_0_flat_rate3">Ship
+                                                                                                    hàng ngoại thành
+                                                                                                    &amp; toàn quốc:
+                                                                                                    <span
+                                                                                                        class="woocommerce-Price-amount amount"><bdi>30.000&nbsp;<span
+                                                                                                                class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></label>
+                                                                                            </li>
+                                                                                            <li class="shipping__list_item">
+                                                                                                <input type="radio" name="shipping_method[0]" data-index="0" id="shipping_method_0_flat_rate5" value="flat_rate:5" class="shipping_method" checked='checked' />
+                                                                                                <label class="shipping__list_label" for="shipping_method_0_flat_rate5">Ship
+                                                                                                    hàng hỏa tốc trong
+                                                                                                    vòng 2h: <span
+                                                                                                        class="woocommerce-Price-amount amount"><bdi>30.000&nbsp;<span
+                                                                                                                class="woocommerce-Price-currencySymbol">&#8363;</span></bdi>
+                                                                                                    </span>
+                                                                                                </label>
+                                                                                            </li>
+                                                                                        </ul>
+
+
+                                                                                    </td>
+                                                                            </tbody>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+
+
+
+
+
+
+                                                                <tr class="order-total">
+                                                                    <th>Tổng</th>
+                                                                    <td><strong><span
+                                                                        class="woocommerce-Price-amount amount"><bdi>30.000&nbsp;<span
+                                                                                class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></strong>
+                                                                    </td>
+                                                                </tr>
+
+
+                                                            </tfoot>
+                                                        </table>
+                                                        <div id="payment" class="woocommerce-checkout-payment">
+                                                            <ul class="wc_payment_methods payment_methods methods">
+                                                                <li class="wc_payment_method payment_method_cod">
+                                                                    <input id="payment_method_cod" type="radio" class="input-radio" name="payment_method" value="cod" checked='checked' data-order_button_text="" />
+
+                                                                    <label for="payment_method_cod">
+                                                                        Trả tiền mặt khi nhận hàng </label>
+                                                                    <div class="payment_box payment_method_cod">
+                                                                        <p>QUÝ KHÁCH THANH TOÁN KHI NHẬN HÀNG!</p>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="wc_payment_method payment_method_bacs">
+                                                                    <input id="payment_method_bacs" type="radio" class="input-radio" name="payment_method" value="bacs" data-order_button_text="" />
+
+                                                                    <label for="payment_method_bacs">
+                                                                        Chuyển khoản ngân hàng </label>
+                                                                    <div class="payment_box payment_method_bacs" style="display:none;">
+                                                                        <p>Quý khách thanh toán vui lòng ghi rõ nội dung chuyển khoản &#8220;MÃ ĐƠN HÀNG&#8221; &#8211; &#8220;SỐ ĐIỆN THOẠI&#8221; để chúng tôi xử lý đơn hàng khi thanh toán. Đơn hàng của bạn
+                                                                            sẽ không được vận chuyển cho tới khi tiền được gửi vào tài khoản của chúng tôi.</p>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                            <div class="form-row place-order">
+                                                                <noscript>
+                                                                    Trình duyệt của bạn không hỗ trợ JavaScript, hoặc nó
+                                                                    bị vô hiệu hóa, hãy đảm bảo bạn nhấp vào <em>Cập
+                                                                        nhật giỏ hàng</em> trước khi bạn thanh toán. Bạn
+                                                                    có thể phải trả nhiều hơn số tiền đã nói ở trên, nếu
+                                                                    bạn không làm như vậy. <br /><button type="submit"
+                                                                        class="button alt"
+                                                                        name="woocommerce_checkout_update_totals"
+                                                                        value="Cập nhật tổng">Cập nhật tổng</button>
+                                                                </noscript>
+
+                                                                <div class="woocommerce-terms-and-conditions-wrapper">
+
+                                                                </div>
+
+
+                                                                <button type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="Đặt hàng" data-value="Đặt hàng">Đặt hàng</button>
+
+                                                                <input type="hidden" id="woocommerce-process-checkout-nonce" name="woocommerce-process-checkout-nonce" value="8c7d8db944" /><input type="hidden" name="_wp_http_referer" value="/thanh-toan/"
+                                                                />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="woocommerce-privacy-policy-text"></div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </form>
+
+                            </div>
+
+                            <div class="kk-star-ratings
+         kksr-valign-bottom     kksr-align-right    " data-payload="{&quot;align&quot;:&quot;right&quot;,&quot;id&quot;:&quot;8&quot;,&quot;slug&quot;:&quot;default&quot;,&quot;valign&quot;:&quot;bottom&quot;,&quot;reference&quot;:&quot;auto&quot;,&quot;count&quot;:&quot;124&quot;,&quot;readonly&quot;:&quot;&quot;,&quot;score&quot;:&quot;3.6&quot;,&quot;best&quot;:&quot;5&quot;,&quot;gap&quot;:&quot;4&quot;,&quot;greet&quot;:&quot;\u0110\u00e1nh gi\u00e1&quot;,&quot;legend&quot;:&quot;3.6\/5 - (124 b\u00ecnh ch\u1ecdn)&quot;,&quot;size&quot;:&quot;24&quot;,&quot;width&quot;:&quot;98.8&quot;,&quot;_legend&quot;:&quot;{score}\/{best} - ({count} {votes})&quot;}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+        </main>
+
+
+        </div>
+
+
+
+
+</body>
+
+</html>
